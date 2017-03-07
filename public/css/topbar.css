@@ -1,0 +1,39 @@
+.itemLeft {
+    margin-top: 20px;
+    list-style: none;
+    float: left;
+}
+
+.itemRight {
+    list-style: none;
+    margin-top: 20px;
+    float: right;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+
+.ul {
+    padding: 0;
+    margin: 0 15%;
+}
+
+.a {
+    font-family: sans-serif;
+    color: darkgrey;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.a:hover {
+    color: darkblue;
+}

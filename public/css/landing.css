@@ -1,0 +1,67 @@
+.outterBg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom left, #FFFFFF, #21B5FF);
+}
+
+.innerBg {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 70%;
+    height: 40%;
+}
+
+.h1 {
+    margin-top: 6%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: cornflowerblue;
+    font-weight: normal;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+
+
+.teacher {
+    width: 45%;
+    margin-right: 10%;
+    height: 100%;
+    float: left;
+    box-shadow: 2px 5px 6px #000000;
+    border-radius: 10px;
+}
+
+.student {
+    width: 45%;
+    height: 100%;
+    float: right;
+    box-shadow: 2px 5px 6px #000000;
+    border-radius: 10px;
+}
+
+.txt {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 150%;
+}
